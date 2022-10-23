@@ -1,0 +1,298 @@
+\hypertarget{class_sculptor}{}\doxysection{Referência da Classe Sculptor}
+\label{class_sculptor}\index{Sculptor@{Sculptor}}
+
+
+Nesse módulo de cabeçalho é declarado os métodos para os membros da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}.  
+
+
+
+
+{\ttfamily \#include $<$sculptor.\+h$>$}
+
+\doxysubsection*{Membros Públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sculptor_a014e3ef5517bf0e9d9e14486b6ac6433}{Sculptor}} (int \+\_\+nx, int \+\_\+ny, int \+\_\+nz)
+\begin{DoxyCompactList}\small\item\em Construtor de argumentos da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_sculptor_a8f159bf97458326f16d2e238e11be7ff}{$\sim$\+Sculptor}} ()
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a4351c930a07887e96d4fdbf251a7867e}{set\+Color}} (float r, float g, float b, float a)
+\begin{DoxyCompactList}\small\item\em Configura a cor e transparência do voxel. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a4bdea3048b419d58e93074060eaa7b52}{put\+Voxel}} (int x, int y, int z)
+\begin{DoxyCompactList}\small\item\em Ativa o voxel na posição (x,y,z) e atribui, ao mesmo, a cor atual de desenho. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_ad9d714a35fc8ae16d06eb5df37c3493c}{cut\+Voxel}} (int x, int y, int z)
+\begin{DoxyCompactList}\small\item\em Desativa o voxel na posição (x,y,z). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a311ad7a0fb83fc67ac1f378be8e99fe1}{put\+Box}} (int x0, int x1, int y0, int y1, int z0, int z1)
+\begin{DoxyCompactList}\small\item\em Ativa todos os voxels no intervalo x∈\mbox{[}x0,x1\mbox{]}, y∈\mbox{[}y0,y1\mbox{]}, z∈\mbox{[}z0,z1\mbox{]} e atribui, aos mesmos, a cor atual do desenho. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_aa84a1b12b09e9e103fc8d78f8d1bc00f}{cut\+Box}} (int x0, int x1, int y0, int y1, int z0, int z1)
+\begin{DoxyCompactList}\small\item\em Desativa todos os voxels no intervalo x∈\mbox{[}x0,x1\mbox{]}, y∈\mbox{[}y0,y1\mbox{]}, z∈\mbox{[}z0,z1\mbox{]} e atribui os voxels selecionados a cor atual do desenho. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a794a2b6ee8fc8098fd6150cb46101fc6}{put\+Sphere}} (int xcenter, int ycenter, int zcenter, int radius)
+\begin{DoxyCompactList}\small\item\em Ativa todos os voxels que satisfazem a equação da esfera e atribui, aos mesmos, a cor atual do desenho (r,g,b,a). \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a67ab8c0ba5116adb8af1d01ad373ac15}{cut\+Sphere}} (int xcenter, int ycenter, int zcenter, int radius)
+\begin{DoxyCompactList}\small\item\em Desativa todos os voxels que satisfazem a equação da esfera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a093615b0c2b9b3a17a56300b9b939f39}{put\+Ellipsoid}} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)
+\begin{DoxyCompactList}\small\item\em Ativa todos os voxels que satisfazem a equação do elipsoide e atribui, aos mesmos, a cor atual de desenho. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a18d2922c111c4c13653ee07d878151ad}{cut\+Ellipsoid}} (int xcenter, int ycenter, int zcenter, int rx, int ry, int rz)
+\begin{DoxyCompactList}\small\item\em Desativa todos os voxels que satisfazem a equação do elipsoide. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sculptor_a58cb72d22001a5034f15383ca983830c}{write\+OFF}} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Grava a escultura no formato (.off) no arquivo filename. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Descrição detalhada}
+Nesse módulo de cabeçalho é declarado os métodos para os membros da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}. 
+
+\doxysubsection{Construtores e Destrutores}
+\mbox{\Hypertarget{class_sculptor_a014e3ef5517bf0e9d9e14486b6ac6433}\label{class_sculptor_a014e3ef5517bf0e9d9e14486b6ac6433}} 
+\index{Sculptor@{Sculptor}!Sculptor@{Sculptor}}
+\index{Sculptor@{Sculptor}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{Sculptor()}{Sculptor()}}
+{\footnotesize\ttfamily Sculptor\+::\+Sculptor (\begin{DoxyParamCaption}\item[{int}]{\+\_\+nx,  }\item[{int}]{\+\_\+ny,  }\item[{int}]{\+\_\+nz }\end{DoxyParamCaption})}
+
+
+
+Construtor de argumentos da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em \+\_\+nx} & largura da matriz em x. \\
+\hline
+{\em \+\_\+ny} & comprimento da matriz em y. \\
+\hline
+{\em \+\_\+nz} & altura da matriz em z. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a8f159bf97458326f16d2e238e11be7ff}\label{class_sculptor_a8f159bf97458326f16d2e238e11be7ff}} 
+\index{Sculptor@{Sculptor}!````~Sculptor@{$\sim$Sculptor}}
+\index{````~Sculptor@{$\sim$Sculptor}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{$\sim$Sculptor()}{~Sculptor()}}
+{\footnotesize\ttfamily Sculptor\+::$\sim$\+Sculptor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destrutor da classe \mbox{\hyperlink{class_sculptor}{Sculptor}}. 
+
+
+
+\doxysubsection{Funções membros}
+\mbox{\Hypertarget{class_sculptor_aa84a1b12b09e9e103fc8d78f8d1bc00f}\label{class_sculptor_aa84a1b12b09e9e103fc8d78f8d1bc00f}} 
+\index{Sculptor@{Sculptor}!cutBox@{cutBox}}
+\index{cutBox@{cutBox}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{cutBox()}{cutBox()}}
+{\footnotesize\ttfamily void Sculptor\+::cut\+Box (\begin{DoxyParamCaption}\item[{int}]{x0,  }\item[{int}]{x1,  }\item[{int}]{y0,  }\item[{int}]{y1,  }\item[{int}]{z0,  }\item[{int}]{z1 }\end{DoxyParamCaption})}
+
+
+
+Desativa todos os voxels no intervalo x∈\mbox{[}x0,x1\mbox{]}, y∈\mbox{[}y0,y1\mbox{]}, z∈\mbox{[}z0,z1\mbox{]} e atribui os voxels selecionados a cor atual do desenho. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0} & x inicial. \\
+\hline
+{\em x1} & x final. \\
+\hline
+{\em y0} & y inicial. \\
+\hline
+{\em y1} & y final. \\
+\hline
+{\em z0} & z inicial. \\
+\hline
+{\em z1} & z final. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a18d2922c111c4c13653ee07d878151ad}\label{class_sculptor_a18d2922c111c4c13653ee07d878151ad}} 
+\index{Sculptor@{Sculptor}!cutEllipsoid@{cutEllipsoid}}
+\index{cutEllipsoid@{cutEllipsoid}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{cutEllipsoid()}{cutEllipsoid()}}
+{\footnotesize\ttfamily void Sculptor\+::cut\+Ellipsoid (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{rx,  }\item[{int}]{ry,  }\item[{int}]{rz }\end{DoxyParamCaption})}
+
+
+
+Desativa todos os voxels que satisfazem a equação do elipsoide. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & posição do centro do elipsoide em x. \\
+\hline
+{\em ycenter} & posição do centro do elipsoide em y. \\
+\hline
+{\em zcenter} & posição do centro do elipdoide em z. \\
+\hline
+{\em rx} & raio do elipsoide em x. \\
+\hline
+{\em ry} & raio do elipsoide em y. \\
+\hline
+{\em rz} & raio do elipsoide em z. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a67ab8c0ba5116adb8af1d01ad373ac15}\label{class_sculptor_a67ab8c0ba5116adb8af1d01ad373ac15}} 
+\index{Sculptor@{Sculptor}!cutSphere@{cutSphere}}
+\index{cutSphere@{cutSphere}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{cutSphere()}{cutSphere()}}
+{\footnotesize\ttfamily void Sculptor\+::cut\+Sphere (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Desativa todos os voxels que satisfazem a equação da esfera. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & posição do centro da efera em x. \\
+\hline
+{\em ycenter} & posição do centro da esfera em y. \\
+\hline
+{\em zcenter} & posição do centro da esfera em z. \\
+\hline
+{\em radius} & raio da esfera. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_ad9d714a35fc8ae16d06eb5df37c3493c}\label{class_sculptor_ad9d714a35fc8ae16d06eb5df37c3493c}} 
+\index{Sculptor@{Sculptor}!cutVoxel@{cutVoxel}}
+\index{cutVoxel@{cutVoxel}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{cutVoxel()}{cutVoxel()}}
+{\footnotesize\ttfamily void Sculptor\+::cut\+Voxel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+
+
+Desativa o voxel na posição (x,y,z). 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & posição x da matriz. \\
+\hline
+{\em y} & posição y da matriz. \\
+\hline
+{\em z} & posição z da matriz. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a311ad7a0fb83fc67ac1f378be8e99fe1}\label{class_sculptor_a311ad7a0fb83fc67ac1f378be8e99fe1}} 
+\index{Sculptor@{Sculptor}!putBox@{putBox}}
+\index{putBox@{putBox}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{putBox()}{putBox()}}
+{\footnotesize\ttfamily void Sculptor\+::put\+Box (\begin{DoxyParamCaption}\item[{int}]{x0,  }\item[{int}]{x1,  }\item[{int}]{y0,  }\item[{int}]{y1,  }\item[{int}]{z0,  }\item[{int}]{z1 }\end{DoxyParamCaption})}
+
+
+
+Ativa todos os voxels no intervalo x∈\mbox{[}x0,x1\mbox{]}, y∈\mbox{[}y0,y1\mbox{]}, z∈\mbox{[}z0,z1\mbox{]} e atribui, aos mesmos, a cor atual do desenho. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x0} & x inicial. \\
+\hline
+{\em x1} & x final. \\
+\hline
+{\em y0} & y inicial. \\
+\hline
+{\em y1} & y final. \\
+\hline
+{\em z0} & z inicial. \\
+\hline
+{\em z1} & z final. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a093615b0c2b9b3a17a56300b9b939f39}\label{class_sculptor_a093615b0c2b9b3a17a56300b9b939f39}} 
+\index{Sculptor@{Sculptor}!putEllipsoid@{putEllipsoid}}
+\index{putEllipsoid@{putEllipsoid}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{putEllipsoid()}{putEllipsoid()}}
+{\footnotesize\ttfamily void Sculptor\+::put\+Ellipsoid (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{rx,  }\item[{int}]{ry,  }\item[{int}]{rz }\end{DoxyParamCaption})}
+
+
+
+Ativa todos os voxels que satisfazem a equação do elipsoide e atribui, aos mesmos, a cor atual de desenho. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & posição do centro do elipsoide em x. \\
+\hline
+{\em ycenter} & posição do centro do elipsoide em y. \\
+\hline
+{\em zcenter} & posição do centro do elipdoide em z. \\
+\hline
+{\em rx} & raio do elipsoide em x. \\
+\hline
+{\em ry} & raio do elipsoide em y. \\
+\hline
+{\em rz} & raio do elipsoide em z. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a794a2b6ee8fc8098fd6150cb46101fc6}\label{class_sculptor_a794a2b6ee8fc8098fd6150cb46101fc6}} 
+\index{Sculptor@{Sculptor}!putSphere@{putSphere}}
+\index{putSphere@{putSphere}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{putSphere()}{putSphere()}}
+{\footnotesize\ttfamily void Sculptor\+::put\+Sphere (\begin{DoxyParamCaption}\item[{int}]{xcenter,  }\item[{int}]{ycenter,  }\item[{int}]{zcenter,  }\item[{int}]{radius }\end{DoxyParamCaption})}
+
+
+
+Ativa todos os voxels que satisfazem a equação da esfera e atribui, aos mesmos, a cor atual do desenho (r,g,b,a). 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em xcenter} & posição do centro da esfera em x. \\
+\hline
+{\em ycenter} & posição do centro da esfera em y. \\
+\hline
+{\em zcenter} & posição do centro da esfera em z. \\
+\hline
+{\em radius} & raio da esfera. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a4bdea3048b419d58e93074060eaa7b52}\label{class_sculptor_a4bdea3048b419d58e93074060eaa7b52}} 
+\index{Sculptor@{Sculptor}!putVoxel@{putVoxel}}
+\index{putVoxel@{putVoxel}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{putVoxel()}{putVoxel()}}
+{\footnotesize\ttfamily void Sculptor\+::put\+Voxel (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+
+
+Ativa o voxel na posição (x,y,z) e atribui, ao mesmo, a cor atual de desenho. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em x} & posição na x da matriz. \\
+\hline
+{\em y} & posição na y da matriz. \\
+\hline
+{\em z} & posição na z da matriz. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a4351c930a07887e96d4fdbf251a7867e}\label{class_sculptor_a4351c930a07887e96d4fdbf251a7867e}} 
+\index{Sculptor@{Sculptor}!setColor@{setColor}}
+\index{setColor@{setColor}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Sculptor\+::set\+Color (\begin{DoxyParamCaption}\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+
+
+Configura a cor e transparência do voxel. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em r} & cor vermelho. \\
+\hline
+{\em g} & cor verde. \\
+\hline
+{\em b} & cor azul. \\
+\hline
+{\em a} & transparência. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sculptor_a58cb72d22001a5034f15383ca983830c}\label{class_sculptor_a58cb72d22001a5034f15383ca983830c}} 
+\index{Sculptor@{Sculptor}!writeOFF@{writeOFF}}
+\index{writeOFF@{writeOFF}!Sculptor@{Sculptor}}
+\doxysubsubsection{\texorpdfstring{writeOFF()}{writeOFF()}}
+{\footnotesize\ttfamily void Sculptor\+::write\+OFF (\begin{DoxyParamCaption}\item[{const char $\ast$}]{filename }\end{DoxyParamCaption})}
+
+
+
+Grava a escultura no formato (.off) no arquivo filename. 
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em filename} & ponteiro para char que aponta para o endereço do nome do arquivo (.off). \\
+\hline
+\end{DoxyParams}
+
+
+A documentação para essa classe foi gerada a partir dos seguintes arquivos\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{sculptor_8h}{sculptor.\+h}}\item 
+\mbox{\hyperlink{sculptor_8cpp}{sculptor.\+cpp}}\end{DoxyCompactItemize}
