@@ -29,10 +29,8 @@ A idéia desse projeto é criar uma ferramenta, na linguagem C++, capaz de fazer
 ### Parte 1
 Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultura abaixo, alguns conhecimentos como alocação de matrizes, classes e estruturas foram introduzidos no projeto.
 
-<p align="center">
 <div class="box">
-    <img width="500" height="200" src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\snapshot00.png"/>
-<p\>    
+    <img width="500" height="200" src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\snapshot00.png"/>   
 </div>
 <div class="box">
     <img width="500" height="200" src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\snapshot01.png"/>    
@@ -40,6 +38,7 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 <div class="box">
     <img width="500" height="200" src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\snapshot02.png"/>    
 </div>
+
 <style>
 div.box {
 	width: 300px;
