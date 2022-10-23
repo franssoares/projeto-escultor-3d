@@ -1,0 +1,5 @@
+-------MEASUREMENT DATA---------
+
+objeto3d.off
+
+ID : Dist [pointA][pointB]
