@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img width="75" height="75" src = "src/assets/readme/cube.png">
+    <img width="75" height="75" src = "src/assets/readme/rubik.png">
     
 </p>
     <h1 align="center"> Projeto Escultor 3D </h1>
@@ -23,10 +23,10 @@
 - [x] Parte 1
 - [ ] Parte 2
 
-###Introdução
+### Introdução
 A idéia desse projeto é criar uma ferramenta, na linguagem C++, capaz de fazer esculturas 3D apartir de matrizes digitais. O projeto consiste em dois módulos: uma classe em C++ destinada à interpretação de um arquivo em formato de texto simples e geração das matrizes tridimensionais; e uma ferramenta visual para desenho, algo equivalente a um "paint" 3D.
 
-###Parte 1
+### Parte 1
 Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultura abaixo, alguns conhecimentos como alocação de matrizes, classes e estruturas foram introduzidos no projeto.
 
 <p align="center">
@@ -60,16 +60,16 @@ div.box {
 
 Para visualizar a utilização dos membros da classe Sculptor, acesse a documentação [aqui](#documentação).
 
-###Parte 2
+### Parte 2
 
 > :construction: Segunda parte do projeto em construção :construction:
 
-###Documentação
+### Documentação
 
 * **Documentação da Parte 1** ([Aqui](https://franssoares.github.io/html/))
 
 * **Documentação da Parte 2**
 
-###Licença
+### Licença
 
 Projeto Escultor 3D é [Creative Commons Zero v1.0 Universal](https://github.com/Franssoares/Projeto-Escultor-3D/blob/main/license).
