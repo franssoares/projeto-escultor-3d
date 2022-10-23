@@ -47,9 +47,6 @@ div.box {
 }
 </style>
 
-<p>
-<p\>
-
 **Conhecimentos necessários:**
 - Alocação dinâmica de memória.
 - Criação da estrutura Voxel.
@@ -75,4 +72,4 @@ Para visualizar a utilização dos membros da classe Sculptor, acesse a document
 
 ###Licença
 
-Projeto Escultor 3D é [Creative Commons Zero v1.0 Universal](https://github.com/Franssoares/Projeto-Escultor-3D/blob/main/LICENSE.MD).
+Projeto Escultor 3D é [Creative Commons Zero v1.0 Universal](https://github.com/Franssoares/Projeto-Escultor-3D/blob/main/license).
