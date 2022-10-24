@@ -62,7 +62,7 @@ A criação da classe `Sculptor`, da estrutura `struct` assim como a implementa�
 - Programação modular.
 - Criação de estrutura `struct`.
 - Criação de classe `class`.
-- Manipulação de dados em arquivo `(.off)`.
+- Manipulação de dados em arquivo `.off`.
 
 
 <br>
