@@ -16,8 +16,9 @@
 * [Parte 1](#parte-1)
 * [Parte 2](#parte-2)
 * [Documentação](#documentação)
+* [Atribuições](#atribuições)
 * [Licença](#licença)
-* [Links](#links)
+
 
 ### Progresso
 
@@ -104,7 +105,7 @@ Para visualizar a utilização dos membros da classe `Sculptor` e da estrutura `
 
 * **Documentação da Parte 2**
 
-### :link:Links
+### Atribuições
 * **Logo:** <a href="https://www.flaticon.com/free-icons/rubik" title="rubik icons">Rubik icons created by Freepik - Flaticon</a>
 
 ---
