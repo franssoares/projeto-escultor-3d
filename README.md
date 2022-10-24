@@ -41,14 +41,14 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
     <img 
     width="280" 
     height="380"
-    src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\trofeu.png" >
+    src="src\assets\readme\trofeu.png">
 </p>
 
 <p align="center">
-<a  
-    href= "https://www.r7.com/B1nQ" 
-    tittle= "Troféu da copa do mundo FIFA" > link da imagem       
-</a>
+    <a  
+        href= "https://www.r7.com/B1nQ" 
+        tittle= "Troféu da copa do mundo FIFA" > link da imagem       
+    </a>
  por Edu Garcia/R7.
 </p>
 
