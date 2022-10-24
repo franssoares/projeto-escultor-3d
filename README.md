@@ -28,9 +28,22 @@ A idéia desse projeto é criar uma ferramenta, na linguagem C++, capaz de fazer
 
 ### Parte 1
 Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultura abaixo, alguns conhecimentos como alocação de matrizes, classes e estruturas foram introduzidos no projeto.
+
+
+<br>
+
 <p align="center">
-    <img width="500" height="340" src = "src/assets/readme/snapshot02.png">    
+    <b>Troféu da Copa do Mundo FIFA</b>
 </p>
+
+<p align="center">
+    <img 
+    width="280" 
+    height="380" 
+    src="src/assets/readme/trofeu.png"> 
+</p>
+
+<br>
 
 
 **Conhecimentos necessários:**
@@ -40,9 +53,32 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 - Manipulação de dados em arquivos.
 
 
+<br>
+
 <p align="center">
-    <img width="470" height="300" src = "src/assets/readme/imagem.gif">
+    <b>Escultura 3D (PNG)</b>
 </p>
+<p align="center">
+    <img 
+    width="500" 
+    height="340" 
+    src = "src/assets/readme/snapshot02.png">
+</p>
+
+<br>
+
+<p align="center">
+    <b>Escultura 3D (GIF)</b>
+</p>
+<p align="center">
+    <img 
+    width="470" 
+    height="300" 
+    src = "src/assets/readme/imagem.gif">
+</p>
+
+<br>
+
 
 Para visualizar a utilização dos membros da classe Sculptor, acesse a documentação [aqui](#documentação).
 
