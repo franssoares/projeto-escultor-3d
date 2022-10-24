@@ -27,11 +27,11 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -50,10 +50,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "F:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\main.cpp"
+        "C:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\main.cpp"
     ],
-    "directory": "F:/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/main.cpp"
+    "directory": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/main.cpp"
 },
 {
     "arguments": [
@@ -83,11 +83,11 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -106,10 +106,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "F:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\sculptor.cpp"
+        "C:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\sculptor.cpp"
     ],
-    "directory": "F:/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/sculptor.cpp"
+    "directory": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/sculptor.cpp"
 },
 {
     "arguments": [
@@ -139,11 +139,11 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -162,10 +162,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "F:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\sculptor.h"
+        "C:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\sculptor.h"
     ],
-    "directory": "F:/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/sculptor.h"
+    "directory": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/sculptor.h"
 },
 {
     "arguments": [
@@ -195,11 +195,11 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IF:\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -218,9 +218,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "F:\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\voxel.h"
+        "C:\\Users\\Frank\\Desktop\\Projeto_Escultor_3D\\Projeto_Escultor_3d_Parte_1\\voxel.h"
     ],
-    "directory": "F:/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/voxel.h"
+    "directory": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/build-Projeto_Escultor_3d_Parte_1-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/Frank/Desktop/Projeto_Escultor_3D/Projeto_Escultor_3d_Parte_1/voxel.h"
 }
 ]

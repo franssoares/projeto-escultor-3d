@@ -28,7 +28,9 @@
 A idéia desse projeto é criar uma ferramenta, na linguagem C++, capaz de fazer esculturas 3D apartir de matrizes digitais. O projeto consiste em dois módulos: uma classe em C++ destinada à interpretação de um arquivo em formato de texto simples e geração das matrizes tridimensionais; e uma ferramenta visual para desenho, algo equivalente a um "paint" 3D.
 
 ### Parte 1
-Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultura abaixo, alguns conhecimentos como alocação de matrizes, classes e estruturas foram introduzidos no projeto.
+Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer esculturas 3D levando em consideração o estudo das classes em C++ e da alocação dinâmica de memória. 
+
+A criação da classe `Sculptor`, da estrutura `struct` assim como a implementação do arquivo `.off`, você pode acessar [aqui](https://github.com/Franssoares/Projeto-Escultor-3D/tree/main/Projeto_Escultor_3d_Parte_1). O objeto de referência que vamos esculpir, nesse primeira etapa, será o troféu da copa do mundo da FIFA.
 
 
 <br>
@@ -57,9 +59,10 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 
 **Conhecimentos necessários:**
 - Alocação dinâmica de memória.
-- Criação da estrutura Voxel.
-- Criação da classe Sculptor.
-- Manipulação de dados em arquivos.
+- Programação modular.
+- Criação de estrutura `struct`.
+- Criação de classe `class`.
+- Manipulação de dados em arquivo `(.off)`.
 
 
 <br>
@@ -89,7 +92,7 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 <br>
 
 
-Para visualizar a utilização dos membros da classe Sculptor, acesse a documentação [aqui](#documentação).
+Para visualizar a utilização dos membros da classe `Sculptor` e da estrutura `Voxel`, acesse a documentação [aqui](#documentação).
 
 ### Parte 2
 
