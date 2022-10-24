@@ -1,5 +1,6 @@
 #include <iostream>
 #include "sculptor.h"
+#include "voxel.h"
 #include <fstream>
 #include <iomanip>
 
@@ -54,7 +55,7 @@ Sculptor::~Sculptor(){
 
     /*
 
-                                    FUNÇÕES DA CLASSE Sculptor;
+        -   FUNÇÕES DA CLASSE Sculptor;
     
     */
 
@@ -62,7 +63,7 @@ Sculptor::~Sculptor(){
 void Sculptor::setColor(float r, float g, float b, float alpha){
 
     //contição: pertencer para ao intervalo [0;1];
-    if(r >= 0 && r <= 1 || g >= 0 && g <= 1 || b >= 0 && b){
+    if((r >= 0 && r <= 1) || (g >= 0 && g <= 1) || (b >= 0 && b)){
 
         this->r = r;
         this->g = g;
