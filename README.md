@@ -39,11 +39,9 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 
 <p align="center">
     <img 
-    src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\trofeu.png" 
     width="280" 
-    height="380" 
-    alt="Caught in the App LONDON">
-
+    height="380"
+    src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\trofeu.png" >
 </p>
 
 <p align="center">
