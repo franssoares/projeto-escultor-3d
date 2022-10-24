@@ -88,7 +88,7 @@ Para visualizar a utilização dos membros da classe Sculptor, acesse a document
 
 ### Documentação
 
-* **Documentação da Parte 1** ([Aqui](https://franssoares.github.io/html/))
+* **Documentação da Parte 1** ([aqui](https://franssoares.github.io/html/))
 
 * **Documentação da Parte 2**
 ---
