@@ -15,7 +15,7 @@ private:
 
     int nx,ny,nz; //dimensões;
 
-    float r,g,b,alpha; //Cor de pintura atual do voxel;
+    float r,g,b,a; //Cor de pintura atual do voxel;
 
 public:
 

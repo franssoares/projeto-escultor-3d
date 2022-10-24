@@ -17,6 +17,7 @@
 * [Parte 2](#parte-2)
 * [Documentação](#documentação)
 * [Licença](#licença)
+* [Links](#links)
 
 ### Progresso
 
@@ -38,9 +39,19 @@ Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer a escultur
 
 <p align="center">
     <img 
+    src="C:\Users\Frank\Desktop\Projeto_Escultor_3D\src\assets\readme\trofeu.png" 
     width="280" 
     height="380" 
-    src="src/assets/readme/trofeu.png"> 
+    alt="Caught in the App LONDON">
+
+</p>
+
+<p align="center">
+<a  
+    href= "https://www.r7.com/B1nQ" 
+    tittle= "Troféu da copa do mundo FIFA" > link da imagem       
+</a>
+ por Edu Garcia/R7.
 </p>
 
 <br>
@@ -91,6 +102,10 @@ Para visualizar a utilização dos membros da classe Sculptor, acesse a document
 * **Documentação da Parte 1** ([aqui](https://franssoares.github.io/html/))
 
 * **Documentação da Parte 2**
+
+### :link:Links
+* **Logo:** <a href="https://www.flaticon.com/free-icons/rubik" title="rubik icons">Rubik icons created by Freepik - Flaticon</a>
+
 ---
 ### Licença
 

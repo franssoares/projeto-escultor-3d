@@ -26,7 +26,7 @@ struct Voxel{
     /**
      * @brief valor real da propriedade de tranparência.
      */
-    float alpha;
+    float a;
     
     /**
      * @brief booleano que recebe a propriedade de voxel ligado/desligado.

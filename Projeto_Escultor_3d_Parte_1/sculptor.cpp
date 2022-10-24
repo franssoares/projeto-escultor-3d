@@ -15,7 +15,7 @@ Sculptor::Sculptor(int tamx, int tamy, int tamz){
     
     //passagem das variáveis para os membros da classe e valores iniciais dos membros;
     nx = tamx; ny = tamy; nz = tamz; 
-    r = g = b = alpha = 0.5; // -> inicialize no meio, mova depois;
+    r = g = b = a = 0.5; // -> inicialize no meio, mova depois;
 
     //alocação dinâmica de memória do membro 'Voxel v' da classe Sculptor;
     v = new Voxel**[nz]; 
@@ -60,15 +60,15 @@ Sculptor::~Sculptor(){
     */
 
 //define as propriedades (cores e transparência);
-void Sculptor::setColor(float r, float g, float b, float alpha){
+void Sculptor::setColor(float r, float g, float b, float a){
 
-    //contição: pertencer para ao intervalo [0;1];
+    //condição para pertencer ao intervalo [0;1];
     if((r >= 0 && r <= 1) || (g >= 0 && g <= 1) || (b >= 0 && b)){
 
         this->r = r;
         this->g = g;
         this->b = b;
-        this->alpha = alpha;
+        this->a = a;
 
     }
         
@@ -80,7 +80,7 @@ void Sculptor::putVoxel(int x, int y, int z){
     v[z][x][y].r = this->r;
     v[z][x][y].g = this->g;
     v[z][x][y].b = this->b;
-    v[z][x][y].alpha = this->alpha;
+    v[z][x][y].a = this->a;
     v[z][x][y].isOn = true;
 
 }
@@ -112,7 +112,7 @@ void Sculptor::putBox(int x0, int x1, int y0, int y1, int z0, int z1){
 
 }
 
-//Desativa todos os voxels no intervalo x∈[x0,x1], y∈[y0,y1], z∈[z0,z1] e atribui aos mesmos a cor atual de desenho;
+//Desativa todos os voxels no intervalo x∈[x0,x1], y∈[y0,y1], z∈[z0,z1];
 void Sculptor::cutBox(int x0, int x1, int y0, int y1, int z0, int z1){
 
     //ferramenta para remover voxels de forma rápida;
@@ -325,27 +325,27 @@ void Sculptor::writeOFF(const char* filename){
 
                     arquivo << 4 << " " << vertices+0 << " " << vertices+3 << " " << vertices+2 << " " <<
                     vertices+1 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     arquivo << 4 << " " << vertices+4 << " " << vertices+5 << " " << vertices+6 << " " <<
                     vertices+7 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     arquivo << 4 << " " << vertices+0 << " " << vertices+1 << " " << vertices+5 << " " <<
                     vertices+4 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     arquivo << 4 << " " << vertices+0 << " " << vertices+4 << " " << vertices+7 << " " <<
                     vertices+3 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     arquivo << 4 << " " << vertices+3 << " " << vertices+7 << " " << vertices+6 << " " <<
                     vertices+2 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     arquivo << 4 << " " << vertices+1 << " " << vertices+2 << " " << vertices+6 << " " <<
                     vertices+5 << " " << v[k][i][j].r << " " << v[k][i][j].g << " " << v[k][i][j].b << " " << 
-                    v[k][i][j].alpha << std::endl;
+                    v[k][i][j].a << std::endl;
 
                     vertices = vertices + 8;
 
