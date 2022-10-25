@@ -31,7 +31,7 @@ A idéia desse projeto é criar uma ferramenta, na linguagem C++, capaz de fazer
 ### Parte 1
 Nessa primeira parte foram desenvolvidas ferramentas capazes de fazer esculturas 3D levando em consideração o estudo das classes em C++ e da alocação dinâmica de memória. 
 
-A criação da classe `Sculptor`, da estrutura `struct` assim como a implementação do arquivo `.off`, você pode acessar [aqui](https://github.com/Franssoares/Projeto-Escultor-3D/tree/main/Projeto_Escultor_3d_Parte_1). O objeto de referência que vamos esculpir, nesse primeira etapa, será o troféu da copa do mundo da FIFA.
+A criação da classe `Sculptor`, da estrutura `struct`, assim como a implementação do arquivo `.off`, podem ser acessados [aqui](https://github.com/Franssoares/Projeto-Escultor-3D/tree/main/Projeto_Escultor_3d_Parte_1). O objeto de referência que vamos esculpir, nesse primeira etapa, será o troféu da copa do mundo da FIFA.
 
 
 <br>
@@ -49,10 +49,10 @@ A criação da classe `Sculptor`, da estrutura `struct` assim como a implementa�
 
 <p align="center">
     <a  
-        href= "https://www.r7.com/B1nQ" 
-        tittle= "Troféu da copa do mundo FIFA" > link da imagem       
-    </a>
- por Edu Garcia/R7.
+        href="https://www.r7.com/B1nQ" 
+        tittle= "Troféu da copa do mundo FIFA">link da imagem 
+        </a>
+    por Edu Garcia/R7.
 </p>
 
 <br>
