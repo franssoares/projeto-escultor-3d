@@ -61,8 +61,8 @@ A criação da classe `Sculptor`, da estrutura `struct`, assim como a implementa
 **Conhecimentos necessários:**
 - Alocação dinâmica de memória.
 - Programação modular.
-- Criação de estrutura `struct`.
-- Criação de classe `class`.
+- Criação de `struct`.
+- Criação de `class`.
 - Manipulação de dados em arquivo `.off`.
 
 
