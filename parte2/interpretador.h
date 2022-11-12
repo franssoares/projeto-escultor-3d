@@ -1,0 +1,6 @@
+#ifndef INTERPRETADOR_H
+#define INTERPRETADOR_H
+
+
+
+#endif //INTERPRETADOR_H
