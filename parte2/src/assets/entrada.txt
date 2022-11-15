@@ -14,3 +14,7 @@ putsphere 50 50 62 6 1 1 0 0.8
 cutellipsoid 50 50 64 4 9 6
 cutellipsoid 50 50 64 9 4 6
 putsphere 50 50 63 5 1 1 0 0.8
+cutsphere 1 1 1 1
+putsphere 1 1 1 1 1 1 1 1
+cutvoxel 0 0 0
+putvoxel 0 0 0 1 0 0 0

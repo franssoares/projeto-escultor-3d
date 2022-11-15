@@ -26,7 +26,7 @@ interpretador::interpretador(const char* in, const char* out){
 }
 
 //Destrutor
-interpretador::~interpretador(){std::cout << std::endl << "Arquivo .off gerado com sucesso!" << std::endl << "Abra assets/saida.txt para visualizar.";}
+interpretador::~interpretador(){std::cout << std::endl << "Arquivo .off gerado com sucesso!" << std::endl << "Abra assets/saida.txt para visualizar o arquivo.";}
 
 //Função para converter literais em chamadas de funções de classe
 void interpretador::conversor(){
