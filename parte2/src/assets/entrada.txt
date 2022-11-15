@@ -1,0 +1,16 @@
+dim 100 100 100
+putbox 0 99 0 99 0 0 0 0.5 0 1
+putbox 43 57 43 57 1 40 0.4 0.2 0 1
+cutbox 33 56 44 56 1 39
+putellipsoid 50 50 41 6 6 1 1 1 0 1
+putellipsoid 50 50 42 6 6 1 1 1 0 1
+putellipsoid 50 50 43 6 6 2 0 0.4 0 1
+putellipsoid 50 50 45 5 5 1 1 1 0 1
+putellipsoid 50 50 46 5 5 1 0 0.4 0 1
+putbox 48 52 48 52 47 62 1 1 0 0.8
+putellipsoid 50 50 55 4 5 9 1 1 0 0.8
+putellipsoid 50 50 55 5 4 9 1 1 0 0.8
+putsphere 50 50 62 6 1 1 0 0.8
+cutellipsoid 50 50 64 4 9 6
+cutellipsoid 50 50 64 9 4 6
+putsphere 50 50 63 5 1 1 0 0.8

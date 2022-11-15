@@ -1,0 +1,50 @@
+\hypertarget{sculptor_8h_source}{}\doxysection{sculptor.\+h}
+\label{sculptor_8h_source}\index{src/headers/sculptor.h@{src/headers/sculptor.h}}
+\mbox{\hyperlink{sculptor_8h}{Vá para a documentação desse arquivo.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef SCULPTOR\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define SCULPTOR\_H}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{voxel_8h}{voxel.h}}"{}}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fstream>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{10 \textcolor{keyword}{class }\mbox{\hyperlink{class_sculptor}{Sculptor}}\{}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14     \mbox{\hyperlink{struct_voxel}{Voxel}} ***v; \textcolor{comment}{//matriz 3d;}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16     \textcolor{keywordtype}{int} nx,ny,nz; \textcolor{comment}{//dimensões;}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keywordtype}{float} r,g,b,a; \textcolor{comment}{//Cor de pintura atual do voxel;}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{public}:}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{29     \mbox{\hyperlink{class_sculptor}{Sculptor}}(\textcolor{keywordtype}{int} \_nx, \textcolor{keywordtype}{int} \_ny, \textcolor{keywordtype}{int} \_nz); \textcolor{comment}{//}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{34     \mbox{\hyperlink{class_sculptor_a8f159bf97458326f16d2e238e11be7ff}{\string~Sculptor}}(); \textcolor{comment}{//destrutor da classe;}}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{44     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a4351c930a07887e96d4fdbf251a7867e}{setColor}}(\textcolor{keywordtype}{float} r, \textcolor{keywordtype}{float} g, \textcolor{keywordtype}{float} b, \textcolor{keywordtype}{float} a); \textcolor{comment}{//define a cor atual do desenho;}}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a4bdea3048b419d58e93074060eaa7b52}{putVoxel}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} z); \textcolor{comment}{//Ativa o voxel na posição (x,y,z) (fazendo isOn = true) e atribui ao mesmo a cor atual de desenho;}}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{62     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_ad9d714a35fc8ae16d06eb5df37c3493c}{cutVoxel}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, \textcolor{keywordtype}{int} z); \textcolor{comment}{//Desativa o voxel na posição (x,y,z) (fazendo isOn = false);}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{74     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a311ad7a0fb83fc67ac1f378be8e99fe1}{putBox}}(\textcolor{keywordtype}{int} x0, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y0, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} z0, \textcolor{keywordtype}{int} z1); \textcolor{comment}{//Ativa todos os voxels no intervalo x∈[x0,x1], y∈[y0,y1], z∈[z0,z1] e atribui aos mesmos a cor atual de desenho;}}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{86     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_aa84a1b12b09e9e103fc8d78f8d1bc00f}{cutBox}}(\textcolor{keywordtype}{int} x0, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y0, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} z0, \textcolor{keywordtype}{int} z1); \textcolor{comment}{//Desativa todos os voxels no intervalo x∈[x0,x1], y∈[y0,y1], z∈[z0,z1] e atribui aos mesmos a cor atual do desenho;}}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{96     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a794a2b6ee8fc8098fd6150cb46101fc6}{putSphere}}(\textcolor{keywordtype}{int} xcenter, \textcolor{keywordtype}{int} ycenter, \textcolor{keywordtype}{int} zcenter, \textcolor{keywordtype}{int} radius); \textcolor{comment}{//Ativa todos os voxels que satisfazem a equação da esfera e atribui aos mesmos a cor atual de desenho (r,g,b,a);}}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{106     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a67ab8c0ba5116adb8af1d01ad373ac15}{cutSphere}}(\textcolor{keywordtype}{int} xcenter, \textcolor{keywordtype}{int} ycenter, \textcolor{keywordtype}{int} zcenter, \textcolor{keywordtype}{int} radius); \textcolor{comment}{//Desativa todos os voxels que satisfazem a equação da esfera;}}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{118     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a093615b0c2b9b3a17a56300b9b939f39}{putEllipsoid}}(\textcolor{keywordtype}{int} xcenter, \textcolor{keywordtype}{int} ycenter, \textcolor{keywordtype}{int} zcenter, \textcolor{keywordtype}{int} rx, \textcolor{keywordtype}{int} ry, \textcolor{keywordtype}{int} rz); \textcolor{comment}{//Ativa todos os voxels que satisfazem a equação do elipsoide e atribui aos mesmos a cor atual de desenho;}}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{130     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a18d2922c111c4c13653ee07d878151ad}{cutEllipsoid}}(\textcolor{keywordtype}{int} xcenter, \textcolor{keywordtype}{int} ycenter, \textcolor{keywordtype}{int} zcenter, \textcolor{keywordtype}{int} rx, \textcolor{keywordtype}{int} ry, \textcolor{keywordtype}{int} rz); \textcolor{comment}{//Desativa todos os voxels que satisfazem a equação do elipsoide;}}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{137     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sculptor_a58cb72d22001a5034f15383ca983830c}{writeOFF}}(\textcolor{keyword}{const} \textcolor{keywordtype}{char}* filename); \textcolor{comment}{//Grava a escultura no formato OFF no arquivo filename;}}
+\DoxyCodeLine{138 }
+\DoxyCodeLine{139 \};}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{141 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// SCULPTOR\_H}}
+
+\end{DoxyCode}
