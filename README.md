@@ -128,7 +128,7 @@ cutellipsoid 50 50 64 9 4 6
 putsphere 50 50 63 5 1 1 0 0.8
 ```
 
-A classe `interpretador` irá lançar no final do procedimento de conversão, um arquivo de saida, `saida.off`. Esse mesmo arquivo `.off` ao abrir no MeshLab, mostra a escultura do troféu da copa do mundo da FIFA.
+A classe `interpretador` irá lançar no final do procedimento de conversão um arquivo de saida, `saida.off`. Esse mesmo arquivo `.off`, ao abrir no MeshLab, mostra a escultura do troféu da copa do mundo da FIFA.
 
 ### Documentação
 
