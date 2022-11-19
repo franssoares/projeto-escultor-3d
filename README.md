@@ -126,6 +126,11 @@ putsphere 50 50 62 6 1 1 0 0.8
 cutellipsoid 50 50 64 4 9 6
 cutellipsoid 50 50 64 9 4 6
 putsphere 50 50 63 5 1 1 0 0.8
+putsphere 1 1 1 1 1 1 1 1
+cutsphere 1 1 1 1
+cutvoxel 0 0 0
+putvoxel 0 0 0 0 0.5 0 1
+putvoxel 1 1 0 0 0.5 0 1
 ```
 
 A classe `interpretador` irá lançar no final do procedimento de conversão um arquivo de saida, `saida.off`. Esse mesmo arquivo `.off`, ao abrir no MeshLab, mostra a escultura do troféu da copa do mundo da FIFA.
